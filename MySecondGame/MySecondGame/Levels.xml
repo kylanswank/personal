@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Levels>
+  <Level>
+    <Name>Start</Name>
+    <Content>LevelStartCollisionMap</Content>
+    <Default>True</Default>
+    <Exits>
+      <Exit>
+        <Direction>South</Direction>
+        <Room>LevelSouthCollisionMap</Room>
+      </Exit>
+      <Exit>
+        <Direction>0,0,255,255</Direction>
+        <Room>LevelSouthCollisionMap</Room>
+        <X>-1</X>
+        <Y>50</Y>
+      </Exit>
+    </Exits>
+  </Level>
+  <Level>
+    <Name>South</Name>
+    <Content>LevelSouthCollisionMap</Content>
+    <Exits>
+      <Exit>
+        <Direction>North</Direction>
+        <Room>LevelStartCollisionMap</Room>
+      </Exit>
+    </Exits>      
+  </Level>
+</Levels>
